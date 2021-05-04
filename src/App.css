@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Formatting */
+.main {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 25px auto;
+  max-width: 1400px;
+}
+
+.content {
+  width: 70%;
+}
+
+/* Navbar */
+.navbar-container {
+  background: rgb(25, 25, 25);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 10px 2%;
+  max-width: 1400px;
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+
+.navbar h2 {
+  color: white;
+  margin: 0px;
+}
+
+.social a i{
+  color: white;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.social a i:hover{
+  color: rgb(25, 25, 25);
+  background: white;
+}
+
+/* About */
+.about {
+  color: white;
+  background: rgb(75,75,75);
+  border-radius: 5px;
+  padding: 25px 2%;
+  width: 24%;
+  box-sizing: border-box;
+}
+
+.about img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Education */
+.education {
+  background: rgb(75,75,75);
+  border-radius: 5px;
+  padding: 25px 2%;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.education h3{
+  padding: 5px 0px;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  margin: 0px;
+}
+
+/* Research */
+.research {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: rgb(75,75,75);
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.research h3 {
+  color: white;
+  padding: 5px 0px;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  width: 96%;
+  margin: 25px 0px;
+}
+
+.card {
+  display: block;
+  background:rgb(75, 75, 75);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  width: 22.5%;
+  margin-bottom: 25px;
+}
+
+.card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.card div {
+  padding: 0px 10px 10px 10px;
+}
+
+.card div p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Experience */
+.experience {
+  background: rgb(75,75,75);
+  border-radius: 5px;
+  padding: 25px 2%;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.experience h3{
+  padding: 5px 0px;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  margin: 0px;
+}
+
+/* Publications */
+.publications {
+  background: rgb(75,75,75);
+  border-radius: 5px;
+  padding: 25px 2%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.publications h3{
+  padding: 5px 0px;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.publications a {
+  color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1200px ){
+  .content {
+    width: 96%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 96%;
+    margin-bottom: 25px;
+    padding: 25px 0px;
+  }
+
+  .about img {
+    width: 20%;
+  }
+
+  .about div {
+    width: 70%
+  }
+}
+
+@media screen and (max-width: 992px){
+  .card {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .about img {
+    width: 96%;
+    max-width: 200px;
+  }
+
+  .about div {
+    width: 96%;
+  }
+
+  .card {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .card {
+    width: 96%;
   }
 }
