@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Tech-Thread-V2/static/css/main.1af73fd9.chunk.css",
+    "main.js": "/Tech-Thread-V2/static/js/main.2963259c.chunk.js",
+    "main.js.map": "/Tech-Thread-V2/static/js/main.2963259c.chunk.js.map",
+    "runtime-main.js": "/Tech-Thread-V2/static/js/runtime-main.f057b683.js",
+    "runtime-main.js.map": "/Tech-Thread-V2/static/js/runtime-main.f057b683.js.map",
+    "static/js/2.3956a749.chunk.js": "/Tech-Thread-V2/static/js/2.3956a749.chunk.js",
+    "static/js/2.3956a749.chunk.js.map": "/Tech-Thread-V2/static/js/2.3956a749.chunk.js.map",
+    "static/js/3.f1632dc5.chunk.js": "/Tech-Thread-V2/static/js/3.f1632dc5.chunk.js",
+    "static/js/3.f1632dc5.chunk.js.map": "/Tech-Thread-V2/static/js/3.f1632dc5.chunk.js.map",
+    "index.html": "/Tech-Thread-V2/index.html",
+    "static/css/main.1af73fd9.chunk.css.map": "/Tech-Thread-V2/static/css/main.1af73fd9.chunk.css.map",
+    "static/js/2.3956a749.chunk.js.LICENSE.txt": "/Tech-Thread-V2/static/js/2.3956a749.chunk.js.LICENSE.txt",
+    "static/media/CosmicSpikesHq.64192590.jpg": "/Tech-Thread-V2/static/media/CosmicSpikesHq.64192590.jpg",
+    "static/media/Graduation.5e6c9a80.jpg": "/Tech-Thread-V2/static/media/Graduation.5e6c9a80.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f057b683.js",
+    "static/js/2.3956a749.chunk.js",
+    "static/css/main.1af73fd9.chunk.css",
+    "static/js/main.2963259c.chunk.js"
+  ]
+}
