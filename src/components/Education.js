@@ -5,7 +5,7 @@ function Publications() {
 
             <p>
                 <b>Oregon State University</b><br/>
-                Bachelor's of Science in Mechanical Engineering (3.24 GPA)
+                Bachelor of Science in Mechanical Engineering (3.24 GPA)
             </p>
               
 
