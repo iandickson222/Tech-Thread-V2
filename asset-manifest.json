@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Tech-Thread-V2/static/css/main.1af73fd9.chunk.css",
-    "main.js": "/Tech-Thread-V2/static/js/main.2963259c.chunk.js",
-    "main.js.map": "/Tech-Thread-V2/static/js/main.2963259c.chunk.js.map",
+    "main.js": "/Tech-Thread-V2/static/js/main.69c9d77d.chunk.js",
+    "main.js.map": "/Tech-Thread-V2/static/js/main.69c9d77d.chunk.js.map",
     "runtime-main.js": "/Tech-Thread-V2/static/js/runtime-main.f057b683.js",
     "runtime-main.js.map": "/Tech-Thread-V2/static/js/runtime-main.f057b683.js.map",
     "static/js/2.3956a749.chunk.js": "/Tech-Thread-V2/static/js/2.3956a749.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f057b683.js",
     "static/js/2.3956a749.chunk.js",
     "static/css/main.1af73fd9.chunk.css",
-    "static/js/main.2963259c.chunk.js"
+    "static/js/main.69c9d77d.chunk.js"
   ]
 }
